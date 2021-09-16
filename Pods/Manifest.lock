@@ -1,0 +1,36 @@
+PODS:
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SwiftMessages (9.0.3):
+    - SwiftMessages/App (= 9.0.3)
+  - SwiftMessages/App (9.0.3)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - RxCocoa
+  - RxSwift
+  - SwiftMessages
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftMessages
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SwiftMessages: 077f19126c24033fe24042237ecc20261adb46e4
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 4e64eebd13fde0b9bb2251abd17d54f3e28a80a6
+
+COCOAPODS: 1.10.1
