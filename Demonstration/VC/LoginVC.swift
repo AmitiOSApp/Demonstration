@@ -61,50 +61,5 @@ class LoginVC: UIViewController {
     }
 }
 
-//extension LoginVC: UITextFieldDelegate {
-//    func textFieldDidBeginEditing(_ textField: UITextField) {
-//        print("textFieldDidBeginEditing")
-//
-//    }
-//    func textFieldDidEndEditing(_ textField: UITextField) {
-//        print("textFieldDidEndEditing")
-//
-//    }
-//    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
-//        print("textFieldShouldBeginEditing")
-//        return true
-//    }
-//    func textFieldShouldClear(_ textField: UITextField) -> Bool {
-//        print("textFieldShouldClear")
-//
-//        return true
-//    }
-//    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
-//        print("textFieldShouldEndEditing")
-//
-//        return true
-//    }
-//
-//    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-//        if textField.text == nil{
-//            return false
-//        }
-//        print("shouldChangeCharactersIn")
-//
-//        if textField.text != "" && textField.text!.isAlphanumeric() == false {
-//            let alert = UIAlertController(title: "Login", message: "Enter proper user name!", preferredStyle: .alert)
-//            let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-//            alert.addAction(okAction)
-//            self.present(alert, animated: true, completion: nil)
-//            return false
-//        }
-//        return true
-//    }
-//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-//        textField.resignFirstResponder();
-//        print("resignFirstResponder")
-//
-//        return true
-//    }
-//}
+
 
