@@ -16,7 +16,7 @@ class LoginViewModel {
     
     func isEnableLogin() -> Observable<Bool> {
 
-        return Observable.combineLatest(userNameTextSubject.asObservable().startWith(""), passwordTextSubject.asObservable().startWith("")).map { userName, password in return userName.count > 5 && password.count > 5 && userName.isAlphanumeric()
+        return Observable.combineLatest(userNameTextSubject.asObservable().startWith(""), passwordTextSubject.asObservable().startWith("")).map { userName, password in return userName.count > 4 && password.count > 4 && userName.isAlphanumeric()
         }.startWith(false)
     }
     
